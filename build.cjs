@@ -1,0 +1,1 @@
+const fs=require('fs');fs.mkdirSync('dist',{recursive:true});for(const f of ['index.html','products.html','about.html','contact.html','style.css','app.js','robots.txt','sitemap.xml'])fs.copyFileSync(f,'dist/'+f);fs.cpSync('assets','dist/assets',{recursive:true});

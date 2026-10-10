@@ -1,0 +1,28 @@
+{
+  "name": "regstar-bricks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.cjs",
+    "dev": "node serve.cjs",
+    "start": "node serve.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonanJaeger721/Regstar-Bricks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RonanJaeger721/Regstar-Bricks/issues"
+  },
+  "homepage": "https://github.com/RonanJaeger721/Regstar-Bricks#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "sharp": "^0.35.5",
+    "vercel": "^63.1.2"
+  }
+}
